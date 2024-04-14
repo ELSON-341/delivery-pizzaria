@@ -107,5 +107,6 @@ header #cart-container .box {
 }
 .box img {
     height: 10rem;
+    object-fit: cover;
 }
 
