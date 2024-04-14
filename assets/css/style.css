@@ -6,17 +6,37 @@
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     outline: none;
     border: none;
     text-decoration: none;
     text-transform: capitalize;
     transform: .2s linear;
+    object-fit: cover;
 }
 
 html {
     font-size: 65.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1.7rem;
+    color: red;
+    background: none;
+    margin-top: 1rem;
+    padding: .8rem 3rem;
+    border: 1px solid red;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
 }
 
 header {
@@ -75,7 +95,7 @@ header #cart-container {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     position: absolute;
     top: 115%;
-    /* right: -105%; */
+    right: -105%;
     padding: 2rem;
 }
 
@@ -107,6 +127,31 @@ header #cart-container .box {
 }
 .box img {
     height: 10rem;
-    object-fit: cover;
+}
+
+.content h3 {
+    font-size: 1.7rem;
+    padding-bottom: .5rem;
+    color: #130f40;
+}
+
+.content span {
+    font-size: 1.7rem;
+    color: #777;
+}
+
+.content span.multiply {
+    margin: 0 .5rem;
+}
+
+#cart-container #total {
+    font-size: 2.2rem;
+    color: #130f40;
+    align-items: center;
+}
+
+#cart-container .btn {
+    width: 100%;
+    text-align: center;
 }
 
