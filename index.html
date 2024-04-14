@@ -13,13 +13,13 @@
     <!-- javaScripts -->
     <script src="assets/js/script.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
-    <title>ESPizza</title>
+    <title>EsPizza</title>
 </head>
 <body>
     <header>
         <a href="index.html" id="logo" rel="prev">
             <i class="fas fa-pizza-slice"></i>
-            ESPizza
+            EsPizza
         </a>
         <nav>
             <a href="index.html" rel="prev">Home</a>
@@ -29,12 +29,45 @@
             <a href="blog.html" rel="next">Blog</a>
             <a href="contact.html" rel="next">Fala Conosco</a>
         </nav>
+        <div id="icons">
+            <i id="cart" class="fas fa-shopping-cart"></i>
+            <i id="login" class="fas fa-user"></i>
+            <i id="menu" class="fas fa-bars"></i>
+        </div>
+        <div id="cart-container">
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="assets/img/carrinho/carrinho-1.png" alt="Imagem de um Pizza">
+                <div class="content">
+                    <h3>Pizza Frango</h3>
+                    <span class="amount"> 1</span>
+                    <span class="multiply"> x</span>
+                    <span class="price">R$77,77</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="assets/img/carrinho/carrinho-2.png" alt="Imagem de um Pizza de">
+                <div class="content">
+                    <h3>Pizza Frango</h3>
+                    <span class="amount"> 1</span>
+                    <span class="multiply"> x</span>
+                    <span class="price">R$77,77</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="assets/img/carrinho/carrinho-3.png" alt="Imagem de um Pizza">
+                <div class="content">
+                    <h3>Pizza Frango</h3>
+                    <span class="amount"> 1</span>
+                    <span class="multiply"> x</span>
+                    <span class="price">R$77,77</span>
+                </div>
+            </div>
+            <h3 id="total">Total R$777,77</h3>
+            <a href="/" class="btn" rel="next">Ir para o carrinho</a>
+        </div>
     </header>
-    <div id="icons">
-        <i id="cart" class="fas fa-shopping-cart"></i>
-        <i id="login" class="fas fa-user"></i>
-        <i id="menu" class="fas fa-bars"></i>
-    </div>
-    
 </body>
 </html>
