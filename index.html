@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <!--css slide-->
+    <!-- css slide -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <!-- css -->
+    <!-- style -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- favicon -->
     <link rel="shortcut icon" href="assets/img/msFavicon.png" type="image/x-icon">
     <!-- javaScripts -->
     <script src="assets/js/script.js" defer></script>
+    <!-- javaScripts slide -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
     <title>EsPizza</title>
 </head>
@@ -70,15 +72,45 @@
             <a href="#" class="btn" rel="next">Ir para o carrinho</a>
         </div>
         <!-- login -->
-        <form action="#" method="post">
+        <form action="#" method="post" id="login-form">
             <h3>Acesse sua conta</h3>
-            <input type="email" name="email" id="email" placeholder="Seu E-mail" autocomplete="off">
-            <input type="password" name="password  " id="password" placeholder="Seu E-mail" autocomplete="off">
+            <input type="email" name="email" class="box" placeholder="Seu E-mail" autocomplete="off">
+            <input type="password" name="password  " class="box" placeholder="Seu E-mail" autocomplete="off">
             <div id="remember-password">
                 <input type="checkbox" name="remember" id="remember">
                 <label for="remember">Me lembrar da senha</label>
             </div>
+            <button type="reset" class="btn">Acessar</button>
         </form>
     </header>
+    <!-- banner slide -->
+    <section class="banner-slide">
+        <div class="swiper home-slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background: url('assets/img/slides/slider-1.png') no-repeat;">
+                    <h3>A <span>Melhor</span> pizza do Brasil</h3>
+                    <div class="buy">
+                        <a href="#" rel="next" class="btn"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background: url('assets/img/slides/slider-2.png') no-repeat;">
+                    <h3>A <span>Melhor</span> pizza do Brasil</h3>
+                    <div class="buy">
+                        <a href="#" rel="next" class="btn"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background: url('assets/img/slides/slider-3.png') no-repeat;">
+                    <h3>A <span>Melhor</span> pizza do Brasil</h3>
+                    <div class="buy">
+                        <a href="#" rel="next" class="btn"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

@@ -155,3 +155,55 @@ header #cart-container .box {
     text-align: center;
 }
 
+header #login-form {
+    background-color: white;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    width: 35rem;
+    padding: 2rem;
+    position: absolute;
+    top: 115%;
+    right: -105%;
+}
+
+header #login-form.active {
+    right: 2rem;
+    transition: .4s linear;
+}
+
+#login-form h3 {
+    font-size: 2.2rem;
+    color: #130f40;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: .7rem;
+}
+
+#login-form .box{
+    margin: .7rem;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-transform: none;
+    color: #130f40;
+}
+
+#login-form #remember-password {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    margin: .7rem 0;
+}
+
+#remember-password label {
+    font-size: 1.5rem;
+    color: #777;
+    cursor: pointer;
+}
+
+#login-form .btn {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+}
