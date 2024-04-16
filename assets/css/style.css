@@ -290,6 +290,7 @@ header #login-form.active {
     line-height: 4.5rem;
     margin-left: 1.5rem;
     color: red;
+    background-color: rgba(255, 0, 0, 0.397);
     border: .1rem solid  red;
     transform: translateY(-50%) rotate(45deg);
 }
