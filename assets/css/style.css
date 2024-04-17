@@ -39,6 +39,8 @@ html {
     color: white;
 }
 
+
+/* header */
 header {
     display: flex;
     justify-content: space-between;
@@ -208,6 +210,7 @@ header #login-form.active {
     margin: 1rem 0;
 }
 
+/* slider */
 #banner-slide {
     background-color: black;
     padding: 0;
@@ -289,7 +292,7 @@ header #login-form.active {
     width: 4.5rem;
     line-height: 4.5rem;
     margin-left: 1.5rem;
-    color: red;
+    color: white;
     background-color: rgba(255, 0, 0, 0.397);
     border: .1rem solid  red;
     transform: translateY(-50%) rotate(45deg);
