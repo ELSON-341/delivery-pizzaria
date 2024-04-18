@@ -10,7 +10,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transform: .2s linear;
     object-fit: cover;
 }
@@ -19,6 +19,10 @@ html {
     font-size: 65.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+}
+
+section {
+    padding: 3rem 7%;
 }
 
 .btn {
@@ -309,3 +313,40 @@ header #login-form.active {
     color: white;
     background-color: red;
 }
+
+/* highlights */
+#highlights #box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem; 
+}
+
+#box-container .box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+    background-color: red;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+#box-container .box .img-container {
+    width: 100%;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#box-container .box .content {
+    padding: 2rem;
+}
+
+#box-container .box .content h3 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
