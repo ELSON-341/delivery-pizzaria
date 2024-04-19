@@ -369,8 +369,7 @@ header #login-form.active {
 }
 
 #instructions-container .images-instructions {
-    flex: 1 1 25rem;
-    align-items: center;
+    flex: 1 1 25rem;  
     text-align: center;
     padding: 2rem 1rem;
 }
