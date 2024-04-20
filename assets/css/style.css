@@ -13,6 +13,7 @@
     /* text-transform: capitalize; */
     transform: .2s linear;
     object-fit: cover;
+    list-style: none;
 }
 
 html {
@@ -392,4 +393,27 @@ header #login-form.active {
     font-size: 2rem;
     color: #130f40;
     padding: 1rem;
+}
+
+/* store */
+#store #items-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2.5rem;
+}
+
+#items-container .items {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    padding: 0 2.5rem;
+}
+
+.items .store-img img {
+    height: 29rem;
+    transition: .4s linear;
+}
+
+.items .store-img img:hover {
+    transform: scale(1.1);
 }
