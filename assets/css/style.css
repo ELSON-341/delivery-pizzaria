@@ -370,7 +370,7 @@ header #login-form.active {
 }
 
 #instructions-container .images-instructions {
-    flex: 1 1 25rem;  
+    flex: 1 1 25rem;
     text-align: center;
     padding: 2rem 1rem;
 }
@@ -416,4 +416,97 @@ header #login-form.active {
 
 .items .store-img img:hover {
     transform: scale(1.1);
+}
+
+.items .pizza-type h3 {
+    color: #130f40;
+    font-size: 2.5rem;
+    line-height: 1.8;
+}
+
+.items .description p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+.items .stars {
+    padding: 1rem 0;
+}
+
+.items .stars i {
+    color: gold;
+    font-size: 1.7rem;
+    transition: .1s linear;
+}
+
+.items .stars i:hover {
+    transform: scale(1.20);
+}
+
+.items .price {
+    font-size: 2.2rem;
+    font-weight: bolder;
+    margin-right: 1rem;
+    color: #130f40;
+}
+
+.items .price span {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+/* company */
+#company {
+    background-color: red;
+}
+
+#company #row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    background-color: red;
+    align-items: center;
+}
+
+#row #company-image {
+    flex: 1 1 32rem;
+}
+
+#company-image img {    
+    width: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#row .content {
+    flex: 1 1 50rem;
+}
+
+#row .content h3 {
+    font-size: 3.5rem;
+    color: white;
+}
+
+#row .content span {
+    font-size: 3.5rem;
+    color: yellow;
+}
+
+#row .content p {
+    font-size: 1.6rem;
+    color: white;
+    padding: 2rem 0;
+    line-height: 2;
+}
+
+#company .btn {
+    color: white;
+    border: 1px solid white;
+}
+
+#company .btn:hover {
+    background-color: yellow;
+    color: #130f40;
+    border: 1px solid #130f40;
 }
