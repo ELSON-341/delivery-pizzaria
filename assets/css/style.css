@@ -510,3 +510,10 @@ header #login-form.active {
     color: #130f40;
     border: 1px solid #130f40;
 }
+
+/* blog */
+
+#blogs .blogs-container {
+    display: flex;
+}
+
