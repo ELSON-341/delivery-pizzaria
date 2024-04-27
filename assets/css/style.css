@@ -10,19 +10,22 @@
     outline: none;
     border: none;
     text-decoration: none;
-    /* text-transform: capitalize; */
     transform: .2s linear;
     list-style: none;
-}
-
-img {
-    object-fit: cover;
 }
 
 html {
     font-size: 65.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+}
+
+img {
+    object-fit: cover;
+}
+
+address {
+    font-style: normal;
 }
 
 .btn {
@@ -44,6 +47,9 @@ html {
 }
 
 section {
+    padding: 3rem 7%;
+}
+footer {
     padding: 3rem 7%;
 }
 
@@ -528,6 +534,7 @@ header #login-form.active {
     padding: 1.5rem;
     border-radius: .5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: .4s;
 }
 
 #blogs-container .blogs-content img {
@@ -537,7 +544,7 @@ header #login-form.active {
 }
 
 #blogs-container .blogs-content:hover {
-    transform: scale(1.01);
+    transform: scale(1.02);
 }
 
 .blogs-content .icons {
@@ -575,4 +582,22 @@ header #login-form.active {
     font-family: 1.4rem;
     padding: 1rem 0;
     line-height: 2;
+}
+
+footer {
+    background-color: #ff0000;
+    text-align: center;
+}
+
+footer #footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+#footer-container .footer-content h3{ 
+    text-transform: capitalize;
+    font-size: 2.2rem;
+    color: white;
+    padding: 1rem 0;
 }
