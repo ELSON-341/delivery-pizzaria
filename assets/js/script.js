@@ -10,7 +10,7 @@ console.log(loginForm);
 document.querySelector('#cart').onclick = () => {
     cartContainer.classList.toggle('active')
     loginForm.classList.remove('active')
-    menuContainer.classList.toggle('active')
+    menuContainer.classList.remove('active')
 }
 
 document.querySelector('#login').onclick = () => {
