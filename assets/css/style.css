@@ -584,6 +584,8 @@ header #login-form.active {
     line-height: 2;
 }
 
+/* side footer */
+
 footer {
     background-color: #ff0000;
     text-align: center;
@@ -600,4 +602,66 @@ footer #footer-container {
     font-size: 2.2rem;
     color: white;
     padding: 1rem 0;
+}
+
+.footer-content address {
+    font-size: 1.5rem;
+    color: white;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.footer-content p {
+    font-size: 1.5rem;
+    color: white;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.footer-content #social-media {
+    margin-top: 1rem;
+}
+
+.footer-content #social-media a {
+    color: white;
+    border: 1px solid white;
+    border-radius: 10%;
+    width: 4.5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-right: .5rem;
+}
+
+.footer-content #social-media a:hover {
+    color: #130f40;
+    background-color: yellow;
+    border-color: #130f40;
+}
+
+.footer-content address a#link {
+    font-size: 1.7rem;
+    line-height: 2;
+    padding: .5rem 0;
+    text-decoration: underline;
+    color: white;
+}
+
+.footer-content address a#link:hover {
+    text-underline-offset: 2px;
+    color: yellow;
+}
+
+footer #copyright {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: .1rem solid white;
+}
+
+footer #copyright span {
+    color: yellow;
 }
