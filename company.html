@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css galerias -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <!-- css icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- css slide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- media queries -->
+    <link rel="stylesheet" href="assets/css/media-queries.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/msFavicon.png" type="image/x-icon">
+    <!-- javaScripts -->
+    <script src="assets/js/script.js" defer></script>
+    <!-- javaScripts galerias -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script>
+        lightGallery(document.querySelector('.gallery .gallery-container'))
+    </script>
+
+
+    <title>EsPizza</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo" rel="prev">
+            <i class="fas fa-pizza-slice"></i>
+            EsPizza
+        </a>
+        <nav>
+            <a href="index.html" rel="prev">Home</a>
+            <a href="company.html" rel="next">Empresa</a>
+            <a href="menu.html" rel="next">Cardápio</a>
+            <a href="storey.html" rel="next">Loja</a>
+            <a href="blog.html" rel="next">Blog</a>
+            <a href="contact.html" rel="next">Fala Conosco</a>
+        </nav>
+        <div id="icons">
+            <i id="cart" class="fas fa-shopping-cart"></i>
+            <i id="login" class="fas fa-user"></i>
+            <i id="menu" class="fas fa-bars"></i>
+        </div>
+        <!-- cart -->
+        <div id="cart-container">
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="assets/img/carrinho/carrinho-1.png" alt="Imagem de um Pizza">
+                <div class="content">
+                    <h3>Pizza Frango</h3>
+                    <span class="amount"> 1</span>
+                    <span class="multiply"> x</span>
+                    <span class="price">R$77,77</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="assets/img/carrinho/carrinho-2.png" alt="Imagem de um Pizza de">
+                <div class="content">
+                    <h3>Pizza Frango</h3>
+                    <span class="amount"> 1</span>
+                    <span class="multiply"> x</span>
+                    <span class="price">R$77,77</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="assets/img/carrinho/carrinho-3.png" alt="Imagem de um Pizza">
+                <div class="content">
+                    <h3>Pizza Frango</h3>
+                    <span class="amount"> 1</span>
+                    <span class="multiply"> x</span>
+                    <span class="price">R$77,77</span>
+                </div>
+            </div>
+            <h3 id="total">Total: R$777,77</h3>
+            <a href="#" class="btn" rel="next">Ir para o carrinho</a>
+        </div>
+        <!-- login -->
+        <form action="#" method="post" id="login-form">
+            <h3>Acesse sua conta</h3>
+            <input type="email" name="email" class="box" placeholder="Seu E-mail" autocomplete="off">
+            <input type="password" name="password  " class="box" placeholder="Seu E-mail" autocomplete="off">
+            <div id="remember-password">
+                <input type="checkbox" name="remember" id="remember">
+                <label for="remember">Me lembrar da senha</label>
+            </div>
+            <button type="reset" class="btn">Acessar</button>
+        </form>
+    </header>
+    <main>
+        <!-- site-top -->
+        <div id="site-top">
+            <h1>sobro nós</h1>
+            <p><a href="" title="sobro nós">início>></a> Empresa</p>
+        </div>
+        <!-- instructions -->
+        <section id="instructions">
+            <h1 class="title">Como <strong>Funciona?</strong></h1>
+            <div id="instructions-container">
+                <figure class="images-instructions">
+                    <img src="assets/img/como-funciona/msflix-1.gif" alt="Primeiro passo, escolha sua Pizza">
+                    <h3>Escolha sau Pizza</h3>
+                </figure>
+                <figure class="images-instructions">
+                    <img src="assets/img/como-funciona/msflix-2.gif" alt="Segundo passo, é a entrega gratuita e rápida">
+                    <h3>Entrega gratuita e rápida</h3>
+                </figure>
+                <figure class="images-instructions">
+                    <img src="assets/img/como-funciona/msflix-3.gif" alt="Teceira passo, Escolha um  método de pagamento fácei">
+                    <h3>Métodos de pagametos fáceis</h3>
+                </figure>
+                <figure class="images-instructions">
+                    <img src="assets/img/como-funciona/msflix-4.gif" alt="E finalmente, aproveite sua pizza">
+                    <h3>E finalmente, aproveite sua Pizza</h3>
+                </figure>
+            </div>
+        </section>
+        <!-- company -->
+        <section id="company">
+            <div id="row">
+                <figure id="company-image">
+                    <img src="assets/img/empresa.jpg" alt="Imaga da empresa">
+                </figure>
+                <div class="content">
+                    <h3>A Pizzaria EsPizza: <span>O sabor que combina</span> com sua divesão</h3>
+                    <p>
+                        Se Você É Um Amante De Pizza E De Entretenimento, A Pizzaria EsPizza É O Lugar Perfeito Para Satisfazer Seus Desejos Gastronômicos Enquanto Desfruta De Uma Experiência Única. Localizada No Coração Da Cidade, A EsPizza Se Destaca Como Um Ponto De Encontro Popular Para Aqueles Que Buscam Uma Combinação Perfeita De Sabor E Diversão.
+                    </p>
+                    <p>
+                        O Cardápio Da Pizzaria EsPizza Oferece Uma Ampla Variedade De Opções De Pizza, Desde As Tradicionais Margheritas Até Criações Inovadoras Que Deixarão Seu Paladar Encantado. Se Você É Fã De Queijo, Peperoni, Cogumelos Ou Uma Combinação De Ingredientes Especiais, A EsPizza Tem A Pizza Perfeita Para Você. E O Melhor De Tudo, Você Pode Personalizá-La De Acordo Com Suas Preferências.
+                    </p>
+                    <a href="\" class="btn" rel="next">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-container">
+            <div class="footer-content">
+                <h3>EsPizza</h3>
+                <p>Estou dentro da comunidade maykonsilveira.com.br</p>
+                <div id="social-media">
+                    <a href="" class="fab fa-facebook-f"></a>
+                    <a href="" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-twitter"></a>
+                    <a href="" class="fab fa-linkedin"></a>
+                </div>
+            </div>    
+            <div class="footer-content">
+                <h3>Faça seu pedido</h3>
+                <address>(98) 7777-7777</address>
+                <address>(98) 7777-7777</address>
+                <address><a href="mailto:cursos@maykonsilveira.com.br" title="cursos@maykonsilveira.com.br" id="link">cursos@maykonsilveira.com.br</a></address>
+            </div>
+            <div class="footer-content">
+                <h3>Localização</h3>
+                <address>
+                Rua 777, nº 77<br>
+                Reinado de Jesus<br>
+                Nova Jerusalém
+            </address>
+            </div>
+        </div>    
+        <div id="copyright">
+            Crido por <span>maykonsilveira.Com.Br</span> | Todos os direitos reservados
+        </div>
+    </footer>
+</body>
+</html>
