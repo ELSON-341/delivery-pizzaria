@@ -65,6 +65,33 @@ footer {
     color: red;
 }
 
+/* company */
+#site-top {
+    background-image: url(../img/topo-paginas-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+    text-align: center;
+}
+
+#site-top h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+#site-top p {
+    padding-top: 1rem;
+    color: white;
+    font-size: 2rem;
+}
+
+#site-top p a {
+    color: red;
+    padding-right: .5rem;
+}
+
 /* header */
 header {
     display: flex;
