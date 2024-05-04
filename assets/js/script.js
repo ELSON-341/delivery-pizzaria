@@ -3,8 +3,6 @@
 const cartContainer = document.querySelector('#cart-container')
 const loginForm = document.querySelector('#login-form')
 const menuContainer = document.querySelector('header nav')
-console.log(menu);
-console.log(loginForm);
 
 // Eventos
 document.querySelector('#cart').onclick = () => {
@@ -25,6 +23,12 @@ document.querySelector('#menu').onclick = () => {
     loginForm.classList.remove('active')
 }
 
+window.onscroll = () => {
+    cartContainer.classList.remove('active')
+    loginForm.classList.remove('active')
+    menuContainer.classList.remove('active')
+}
+
 // slide with CDN swiper
 const swiper = new Swiper('.home-slider', {
     autoplay: {
@@ -39,5 +43,3 @@ const swiper = new Swiper('.home-slider', {
         prevEl: '.swiper-button-prev',
       },
 })
-
-
