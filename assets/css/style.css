@@ -743,3 +743,59 @@ footer #copyright span {
     color: white;
 } */
 
+/* menu slider */
+#menu-section .slider .title {
+    padding: 1rem;
+    font-size: 3rem;
+    color: white;
+    background-color: red;
+    margin-bottom: 3rem;
+    text-align: center;
+    width: 100%;
+}
+.slider {
+    width: 100%;
+}
+
+.slider .menu-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-bottom: 4rem;
+}
+
+.slider .menu-content .menu-inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 1 1 38rem;
+    gap: 1rem;
+    background-color: #eee;
+    padding: 2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.menu-content .menu-inner:hover {
+    transform: scale(.9);
+}
+
+.menu-content .menu-inner h3{
+    font-size: 2.2rem;
+    color: #130f40;
+    padding-bottom: .5rem;
+
+}
+
+.menu-content .menu-inner p {
+    font-size: 1.4rem;
+    color: #777;
+    line-height: 2;
+}
+
+.menu-inner .price {
+    font-size: 2.2rem;
+    color: red;
+}

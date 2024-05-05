@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <!-- css slide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- media queries -->
+    <link rel="stylesheet" href="assets/css/media-queries.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/msFavicon.png" type="image/x-icon">
+    <!-- javaScripts -->
+    <script src="assets/js/script.js" defer></script>
+    <!-- javascript slide -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>EsPizza</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo" rel="prev">
+            <i class="fas fa-pizza-slice"></i>
+            EsPizza
+        </a>
+        <nav>
+            <a href="index.html" rel="prev">Home</a>
+            <a href="company.html" rel="next">Empresa</a>
+            <a href="menu.html" rel="next">Cardápio</a>
+            <a href="storey.html" rel="next">Loja</a>
+            <a href="blog.html" rel="next">Blog</a>
+            <a href="contact.html" rel="next">Fala Conosco</a>
+        </nav>
+        <div id="icons">
+            <i id="cart" class="fas fa-shopping-cart"></i>
+            <i id="login" class="fas fa-user"></i>
+            <i id="menu" class="fas fa-bars"></i>
+        </div>
+        <!-- cart -->
+        <div id="cart-container">
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="assets/img/carrinho/carrinho-1.png" alt="Imagem de um Pizza">
+                <div class="content">
+                    <h3>Pizza Frango</h3>
+                    <span class="amount"> 1</span>
+                    <span class="multiply"> x</span>
+                    <span class="price">R$77,77</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="assets/img/carrinho/carrinho-2.png" alt="Imagem de um Pizza de">
+                <div class="content">
+                    <h3>Pizza Frango</h3>
+                    <span class="amount"> 1</span>
+                    <span class="multiply"> x</span>
+                    <span class="price">R$77,77</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="assets/img/carrinho/carrinho-3.png" alt="Imagem de um Pizza">
+                <div class="content">
+                    <h3>Pizza Frango</h3>
+                    <span class="amount"> 1</span>
+                    <span class="multiply"> x</span>
+                    <span class="price">R$77,77</span>
+                </div>
+            </div>
+            <h3 id="total">Total: R$777,77</h3>
+            <a href="#" class="btn" rel="next">Ir para o carrinho</a>
+        </div>
+        <!-- login -->
+        <form action="#" method="post" id="login-form">
+            <h3>Acesse sua conta</h3>
+            <input type="email" name="email" class="box" placeholder="Seu E-mail" autocomplete="off">
+            <input type="password" name="password  " class="box" placeholder="Seu E-mail" autocomplete="off">
+            <div id="remember-password">
+                <input type="checkbox" name="remember" id="remember">
+                <label for="remember">Me lembrar da senha</label>
+            </div>
+            <button type="reset" class="btn">Acessar</button>
+        </form>
+    </header>
+    <main>
+        <!-- site-top -->
+        <div id="site-top">
+            <h1>Menu da Pizzaria</h1>
+            <p><a href="index.html" title="sobro nós" rel="prev">início>></a> Delivery</p>
+        </div>
+        <!-- menu slider -->
+        <section id="menu-section">
+            <div class="swiper menu-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slider slider">
+                        <h3 class="title">Pizza</h3>
+                        <div class="menu-content">
+                            <div class="menu-inner" data-name="pizza">
+                                <div class="info">
+                                    <h3>Pizza de Frango</h3>
+                                    <p>Pizza da EsPizza é a melhor Pizza do mercado.</p>
+                                </div>
+                                <div class="price">R$ 77</div>
+                            </div>
+                            <div class="menu-inner" data-name="pizza">
+                                <div class="info">
+                                    <h3>Pizza de Frango</h3>
+                                    <p>Pizza da EsPizza é a melhor Pizza do mercado.</p>
+                                </div>
+                                <div class="price">R$ 77</div>
+                            </div>
+                            <div class="menu-inner" data-name="pizza">
+                                <div class="info">
+                                    <h3>Pizza de Frango</h3>
+                                    <p>Pizza da EsPizza é a melhor Pizza do mercado.</p>
+                                </div>
+                                <div class="price">R$ 77</div>
+                            </div>
+                            <div class="menu-inner" data-name="pizza">
+                                <div class="info">
+                                    <h3>Pizza de Frango</h3>
+                                    <p>Pizza da EsPizza é a melhor Pizza do mercado.</p>
+                                </div>
+                                <div class="price">R$ 77</div>
+                            </div>
+                            <div class="menu-inner" data-name="pizza">
+                                <div class="info">
+                                    <h3>Pizza de Frango</h3>
+                                    <p>Pizza da EsPizza é a melhor Pizza do mercado.</p>
+                                </div>
+                                <div class="price">R$ 77</div>
+                            </div>
+                            <div class="menu-inner" data-name="pizza">
+                                <div class="info">
+                                    <h3>Pizza de Frango</h3>
+                                    <p>Pizza da EsPizza é a melhor Pizza do mercado.</p>
+                                </div>
+                                <div class="price">R$ 77</div>
+                            </div>
+                            <div class="menu-inner" data-name="pizza">
+                                <div class="info">
+                                    <h3>Pizza de Frango</h3>
+                                    <p>Pizza da EsPizza é a melhor Pizza do mercado.</p>
+                                </div>
+                                <div class="price">R$ 77</div>
+                            </div>
+                            <div class="menu-inner" data-name="pizza">
+                                <div class="info">
+                                    <h3>Pizza de Frango</h3>
+                                    <p>Pizza da EsPizza é a melhor Pizza do mercado.</p>
+                                </div>
+                                <div class="price">R$ 77</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-container">
+            <div class="footer-content">
+                <h3>EsPizza</h3>
+                <p>Estou dentro da comunidade maykonsilveira.com.br</p>
+                <div id="social-media">
+                    <a href="" class="fab fa-facebook-f"></a>
+                    <a href="" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-twitter"></a>
+                    <a href="" class="fab fa-linkedin"></a>
+                </div>
+            </div>    
+            <div class="footer-content">
+                <h3>Faça seu pedido</h3>
+                <address>(98) 7777-7777</address>
+                <address>(98) 7777-7777</address>
+                <address><a href="mailto:cursos@maykonsilveira.com.br" title="cursos@maykonsilveira.com.br" id="link">cursos@maykonsilveira.com.br</a></address>
+            </div>
+            <div class="footer-content">
+                <h3>Localização</h3>
+                <address>
+                Rua 777, nº 77<br>
+                Reinado de Jesus<br>
+                Nova Jerusalém
+            </address>
+            </div>
+        </div>    
+        <div id="copyright">
+            Crido por <span>maykonsilveira.Com.Br</span> | Todos os direitos reservados
+        </div>
+    </footer>
+</body>
+</html>
