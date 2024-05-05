@@ -751,7 +751,6 @@ footer #copyright span {
     background-color: red;
     margin-bottom: 3rem;
     text-align: center;
-    width: 100%;
 }
 .slider {
     width: 100%;
@@ -760,19 +759,18 @@ footer #copyright span {
 .slider .menu-content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 1.5rem;
     padding-bottom: 4rem;
 }
 
 .slider .menu-content .menu-inner {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font: 1 1 38rem;
+    flex: 1 1 38rem;
     gap: 1rem;
     background-color: #eee;
     padding: 2rem;
+    border-radius: 10px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: .2s linear;
