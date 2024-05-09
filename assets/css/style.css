@@ -744,3 +744,51 @@ footer #copyright span {
 } */
 
 /* menu slider */
+#menu-section .slider .title {
+    padding: 1rem;
+    font-size: 3rem;
+    background-color: red;
+    color: white;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+#menu-section .slider .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#menu-section .box-container .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 38rem;
+    gap: 1rem;
+    background-color: #eee;
+    padding: 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+#menu-section .box-container .box:hover {
+    transform: scale(0.9);
+}
+
+#menu-section .box-container .box h3 {
+    font-size: 2.2rem;
+    color: #130f40;
+    padding-bottom: .5rem;
+}
+
+#menu-section .box-container .box p {
+    font-size: 1.4rem;
+    color: #777;
+    line-height: 2;
+}
+
+#menu-section .box-container .box .price {
+    font-size: 2.2rem;
+    color: red;
+}
