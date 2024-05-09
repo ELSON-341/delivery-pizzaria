@@ -29,8 +29,8 @@ window.onscroll = () => {
     menuContainer.classList.remove('active')
 }
 
-// slide with CDN swiper
-const swiper1 = new Swiper('.home-slider', {
+// slide banner
+const swiper = new Swiper('.home-slider', {
     autoplay: {
         Delay:2500,
         disableOnInteraction: false,
@@ -44,13 +44,17 @@ const swiper1 = new Swiper('.home-slider', {
       },
 })
 
-const swiper = new Swiper('.menu-slider', {
+// slide menu
+const swiper1 = new Swiper('.home-slider', {
+    autoplay: {
+        Delay:2500,
+        disableOnInteraction: false,
+    },
     grapCursor: true,
     loop:true,
     centeredSlides: true,
-    spaceBetween:20,
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
       },
 })
