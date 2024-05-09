@@ -45,16 +45,13 @@ const swiper = new Swiper('.home-slider', {
 })
 
 // slide menu
-const swiper1 = new Swiper('.home-slider', {
-    autoplay: {
-        Delay:2500,
-        disableOnInteraction: false,
-    },
-    grapCursor: true,
-    loop:true,
+const swiper1 = new Swiper('.menu-slider', {
+    grabCursor: true,
+    loop: true,
     centeredSlides: true,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+    spaceBetween: 20,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true
       },
 })
