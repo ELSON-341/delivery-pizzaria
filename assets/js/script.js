@@ -55,3 +55,23 @@ const swiper1 = new Swiper('.menu-slider', {
         clickable: true
       },
 })
+
+const modalContainer = document.querySelector('#menu-modal-container')
+const modals = modalContainer.querySelector('#menu-modal')
+console.log(modals);
+
+
+document.querySelectorAll('#menu-section .box').forEach((menu) => {
+    menu.onclick = () => {
+        modalContainer.style.display = 'flex'
+        const name = menu.getAttribute('data-name')
+
+        modals.forEach(modal => {
+            const modalTarget = getAttribute('data-name')
+            console.log(modalTarget);
+            if(name === modalTarget) {
+                modal.classList.add('active')
+            }
+        })
+    }
+})
