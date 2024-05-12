@@ -793,6 +793,10 @@ footer #copyright span {
     color: red;
 }
 
+.swiper-pagination {
+    margin-bottom: -13px;
+}
+
 .swiper-pagination-bullet  {
     background-color: #ff0000;
     min-width: 10px;

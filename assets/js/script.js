@@ -50,6 +50,7 @@ const swiper1 = new Swiper('.menu-slider', {
     loop: true,
     centeredSlides: true,
     spaceBetween: 20,
+    autoHeight: true,
     pagination: {
         el: '.swiper-pagination',
         clickable: true
@@ -58,8 +59,6 @@ const swiper1 = new Swiper('.menu-slider', {
 
 const modalContainer = document.querySelector('#menu-modal-container')
 const modals = modalContainer.querySelector('#menu-modal')
-console.log(modals);
-
 
 document.querySelectorAll('#menu-section .box').forEach((menu) => {
     menu.onclick = () => {
@@ -75,3 +74,10 @@ document.querySelectorAll('#menu-section .box').forEach((menu) => {
         })
     }
 })
+
+document.querySelector('#close').onclick = () => {
+    modalContainer.style.display = 'none'
+    modals.forEach((moldal) => {
+        moldal.classList.remove('active')
+    })
+}
