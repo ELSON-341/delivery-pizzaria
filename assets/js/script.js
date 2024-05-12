@@ -66,7 +66,7 @@ document.querySelectorAll('#menu-section .box').forEach((menu) => {
         const name = menu.getAttribute('data-name')
 
         modals.forEach((modal) => {
-            const modalTarget = getAttribute('data-target')
+            const modalTarget = modal.getAttribute('data-target')
             console.log(modalTarget);
             if(name === modalTarget) {
                 modal.classList.add('active')
