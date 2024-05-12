@@ -65,8 +65,8 @@ document.querySelectorAll('#menu-section .box').forEach((menu) => {
         modalContainer.style.display = 'flex'
         const name = menu.getAttribute('data-name')
 
-        modals.forEach(modal => {
-            const modalTarget = getAttribute('data-name')
+        modals.forEach((modal) => {
+            const modalTarget = getAttribute('data-target')
             console.log(modalTarget);
             if(name === modalTarget) {
                 modal.classList.add('active')
@@ -75,7 +75,7 @@ document.querySelectorAll('#menu-section .box').forEach((menu) => {
     }
 })
 
-document.querySelector('#close').onclick = () => {
+modalContainer.querySelector('#close').onclick = () => {
     modalContainer.style.display = 'none'
     modals.forEach((moldal) => {
         moldal.classList.remove('active')
