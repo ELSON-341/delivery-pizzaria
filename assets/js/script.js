@@ -58,7 +58,7 @@ const swiper1 = new Swiper('.menu-slider', {
 })
 
 const modalContainer = document.querySelector('#menu-modal-container')
-const modals = modalContainer.querySelector('#menu-modal')
+const modal = modalContainer.querySelector('#menu-modal')
 
 document.querySelectorAll('#menu-section .box').forEach((menu) => {
     menu.onclick = () => {
@@ -66,15 +66,15 @@ document.querySelectorAll('#menu-section .box').forEach((menu) => {
         const name = menu.getAttribute('data-name')
 
         
-    const modalTarget = modals.getAttribute('data-target')
+    const modalTarget = modal.getAttribute('data-target')
     console.log(modalTarget);
     if(name === modalTarget) {
-        modals.classList.add('active')
+        modal.classList.add('active')
     }
     }
 })
 
 modalContainer.querySelector('#close').onclick = () => {
     modalContainer.style.display = 'none'
-    modals.classList.remove('active')
+    modal.classList.remove('active')
 }

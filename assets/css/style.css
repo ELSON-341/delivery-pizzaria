@@ -876,3 +876,48 @@ footer #copyright span {
     color: #130f40;
     margin-bottom: .5rem;
 }
+
+/* contact */
+#contact #icon-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+
+#contact #icon-box .icons {
+    text-align: center;
+    border: .1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+#contact #icon-box .icons i {
+    width: 6rem;
+    height: 6rem;
+    font-size: 2.5rem;
+    line-height: 6rem;
+    background-color: #eee;
+    border-radius: 50%;
+    color: red;
+    transition: .2s linear;
+}
+
+#contact #icon-box .icons:hover i {
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+}
+
+#contact #icon-box .icons h3 {
+    font-size: 2rem;
+    color: #130f40;
+    padding: 1rem 0;
+}
+
+#contact #icon-box .icons address {
+    font-size: 1.5rem;
+    color: #777;
+    line-height: 1.7;
+}

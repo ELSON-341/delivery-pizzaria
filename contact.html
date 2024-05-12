@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css galerias -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
     <!-- css icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <!-- css slide -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <!-- style -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- media queries -->
@@ -15,8 +15,6 @@
     <link rel="shortcut icon" href="assets/img/msFavicon.png" type="image/x-icon">
     <!-- javaScripts -->
     <script src="assets/js/script.js" defer></script>
-    <!-- javaScripts slide -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <title>EsPizza</title>
 </head>
 <body>
@@ -88,96 +86,28 @@
     <main>
         <!-- site-top -->
         <div id="site-top">
-            <h1>Menu da Pizzaria</h1>
-            <p><a href="index.html" title="Ir para o início" rel="prev">início>></a> Notícias</p>
-        </div>
-        <!-- blogs -->
-        <section id="blogs">
-            <h1 class="title">Nosso <strong>Blog</strong></h1>
-            <div id="blogs-container">
-                <div class="blogs-content">
-                    <img src="assets/img/blog/blog-1.jpg" alt="Imagem de um pizza fatiada">
-                    <div class="icons">
-                        <a href="#" title="">
-                            <i class="fa fa-calendar"></i> 22 Abril de 2024
-                        </a>
-                        <a href="#" title="">
-                            <i class="fa fa-user"></i> Elson Santos
-                        </a>
-                    </div>
-                    <h3>Sou aluno(a) da EAd MaykonSilveira.Com.Br</h3>
-                    <p>Aqui estou aprendendo a programar programando</p>
-                    <a href="#" title="" class="btn"> Saiba mais</a>
+            <h1>Fale Conosco</h1>
+            <p><a href="index.html" title="Ir para o início" rel="prev">início>></a>Comtatos</p>
+        </div> 
+        <section id="contact">
+            <div id="icon-box">
+                <div class="icons">
+                    <i class="fas fa-phone"></i>
+                    <h3>Atedimentos Fones</h3>
+                    <address>(98)7777-7777</address>
+                    <address>(98)7777-7777</address>
                 </div>
-                <div class="blogs-content">
-                    <img src="assets/img/blog/blog-2.jpg" alt="Imagem de um pizza">
-                    <div class="icons">
-                        <a href="#" title="">
-                            <i class="fa fa-calendar"></i> 22 Abril de 2024
-                        </a>
-                        <a href="#" title="">
-                            <i class="fa fa-user"></i> Elson Santos
-                        </a>
-                    </div>
-                    <h3>Sou aluno(a) da EAd MaykonSilveira.Com.Br</h3>
-                    <p>Aqui estou aprendendo a programar programando</p>
-                    <a href="#" title="" class="btn"> Saiba mais</a>
+                <div class="icons">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Nossos E-emails</h3>
+                    <address>elson.sn314@gmail.com</address>
+                    <address>cursos@maykonsilveira.com.br</address>
                 </div>
-                <div class="blogs-content">
-                    <img src="assets/img/blog/blog-3.jpg" alt="Imagem de várias pizza">
-                    <div class="icons">
-                        <a href="#" title="">
-                            <i class="fa fa-calendar"></i> 22 Abril de 2024
-                        </a>
-                        <a href="#" title="">
-                            <i class="fa fa-user"></i> Elson Santos
-                        </a>
-                    </div>
-                    <h3>Sou aluno(a) da EAd MaykonSilveira.Com.Br</h3>
-                    <p>Aqui estou aprendendo a programar programando</p>
-                    <a href="#" title="" class="btn"> Saiba mais</a>
-                </div>
-                <div class="blogs-content">
-                    <img src="assets/img/blog/blog-4.jpg" alt="Imagem de um pizza fatiada">
-                    <div class="icons">
-                        <a href="#" title="">
-                            <i class="fa fa-calendar"></i> 22 Abril de 2024
-                        </a>
-                        <a href="#" title="">
-                            <i class="fa fa-user"></i> Elson Santos
-                        </a>
-                    </div>
-                    <h3>Sou aluno(a) da EAd MaykonSilveira.Com.Br</h3>
-                    <p>Aqui estou aprendendo a programar programando</p>
-                    <a href="#" title="" class="btn"> Saiba mais</a>
-                </div>
-                <div class="blogs-content">
-                    <img src="assets/img/blog/blog-5.jpg" alt="Imagem de um pizza fatiada">
-                    <div class="icons">
-                        <a href="#" title="">
-                            <i class="fa fa-calendar"></i> 22 Abril de 2024
-                        </a>
-                        <a href="#" title="">
-                            <i class="fa fa-user"></i> Elson Santos
-                        </a>
-                    </div>
-                    <h3>Sou aluno(a) da EAd MaykonSilveira.Com.Br</h3>
-                    <p>Aqui estou aprendendo a programar programando</p>
-                    <a href="#" title="" class="btn"> Saiba mais</a>
-                </div>
-                <div class="blogs-content">
-                    <img src="assets/img/blog/blog-6.jpg" alt="Imagem de um pizza fatiada">
-                    <div class="icons">
-                        <a href="#" title="">
-                            <i class="fa fa-calendar"></i> 22 Abril de 2024
-                        </a>
-                        <a href="#" title="">
-                            <i class="fa fa-user"></i> Elson Santos
-                        </a>
-                    </div>
-                    <h3>Sou aluno(a) da EAd MaykonSilveira.Com.Br</h3>
-                    <p>Aqui estou aprendendo a programar programando</p>
-                    <a href="#" title="" class="btn"> Saiba mais</a>
+                <div class="icons">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Endereço</h3>
+                    <address>Rua 777, Nº 77</address>
+                    <address>Pio xii - MA</address>
                 </div>
             </div>
         </section>
@@ -213,5 +143,10 @@
             Crido por <span>maykonsilveira.Com.Br</span> | Todos os direitos reservados
         </div>
     </footer>
+    <!-- javaScripts galerias -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script>
+        lightGallery(document.querySelector('.gallery .gallery-container'))
+    </script>
 </body>
 </html>
