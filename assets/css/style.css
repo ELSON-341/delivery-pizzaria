@@ -118,14 +118,33 @@ header #logo i{
     padding-right: .5rem;
     rotate: 175deg;
 }
+
 nav a {  
+    position: relative;
     color: white;
     font-size: 1.7rem;
     margin:0 1rem;
 }
 
+nav a::after {
+content: '';
+height: 3px;
+background-color: white;
+position: absolute;
+left: 0;
+bottom: -10px;
+width: 0;
+transform: scale(0, 1);
+transition: transform .5s ease;
+}
+
 nav a:hover {
     color: yellow;
+}
+
+nav a:hover::after {
+    width: 100%;
+    transform: scale(1.1);
 }
 
 #icons i {  
