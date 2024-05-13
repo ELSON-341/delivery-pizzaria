@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* big scrrens */
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1077px) {
     html {
         font-size: 55%;
     }
