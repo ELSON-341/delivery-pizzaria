@@ -735,7 +735,7 @@ footer #copyright span {
 
 .gallery-container:has(img:hover) img:not(:hover) {
     scale: .95;
-    opacity: .8;
+    filter: brightness(50%);
 }
 
 .gallery-image .plus {
