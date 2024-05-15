@@ -716,7 +716,7 @@ footer #copyright span {
 .gallery .gallery-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: .5rem;
+    gap: .2rem;
 }
 
 .gallery .gallery-container .gallery-image {
