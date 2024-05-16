@@ -1,6 +1,8 @@
  # Delivery de Pizzaria
 
-É uma interface de delivery para uma pizzaria, e em breve irei criar e intergrar o back-end para adiciona novas funcionalidade.
+É uma interface de delivery para uma pizzaria.
+
+Em breve irei criar e intergrar o back-end para adiciona novas funcionalidade.
 
 Desenvolvedor: HTML, CSS, JS, Swiper.js
 
@@ -20,4 +22,5 @@ O site é composto por:
 1. __Contatos:__ Fornece suporte ao cliente e permite fazer pedidos, além de incluir um mapa de localização.
 
 ## Preview
+Clique 👉 __[aqui](https://elson-341.github.io/delivery-pizzaria/)__ para ver site.
 ![previw](assets/img/Delivery%20de%20Pizzaria.jpg)
